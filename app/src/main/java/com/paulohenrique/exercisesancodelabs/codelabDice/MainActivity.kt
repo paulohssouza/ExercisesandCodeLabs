@@ -11,8 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val myFirstDice = Dice(6)
-        val diceRoll = myFirstDice.roll()
-        println("Your ${myFirstDice.numSides} sided dice rolled ${diceRoll}!")
+        println("Your ${myFirstDice.numSides} sided dice rolled ${myFirstDice.roll()}!")
 
         val mySecondDice = Dice(20)
         println("Your ${mySecondDice.numSides} sided dice rolled  ${mySecondDice.roll()}!")
