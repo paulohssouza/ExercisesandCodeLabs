@@ -9,11 +9,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val myFristDice = Dice()
+        val myFirstDice = Dice()
+        val diceRoll = myFirstDice.roll()
 
-        println(myFristDice.sides)
-
-        myFristDice.roll()
+        println("Your ${myFirstDice.sides} sided dice rolled ${diceRoll}!")
     }
 
 }
