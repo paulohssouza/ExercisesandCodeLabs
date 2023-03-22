@@ -9,10 +9,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val diceRange = 1..6
-        val randomNumber = diceRange.random()
+        val myFristDice = Dice()
 
-        println("Random number: $randomNumber")
+        println(myFristDice.sides)
+
+        myFristDice.roll()
     }
 
 }
