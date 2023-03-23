@@ -4,4 +4,5 @@
     <string name="roll">Roll</string>
     <string name="btn_roll_txt">Roll</string>
     <string name="txt_text_view">1</string>
+    <string name="image_dice_roll_description">Image dice roll</string>
 </resources>
